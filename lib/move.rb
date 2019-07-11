@@ -43,8 +43,11 @@
 #   def move(board, position, character = "O")
 #     @board[position.to_i] = character
 #   end
-
+def welcomeMessage 
 puts "Welcome to Tic Tac Toe!"
+end
+
+welcomeMessage()
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
