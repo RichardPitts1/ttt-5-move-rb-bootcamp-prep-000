@@ -15,9 +15,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def whereWouldYouLikeToGo
-  puts "Where would you like to go?"
-  input = gets.strip
+
 
 def input_to_index(user_input)
   new_user_input = user_input.to_i
@@ -25,12 +23,28 @@ def input_to_index(user_input)
   return new_user_input
 end
 
+
+
+
+
+def whereWouldYouLikeToGo
+  puts "Where would you like to go?"
+  input = gets.strip
+  index = input_to_index(input)
+end
+
+
+
+
 def move(board, index, character = "X")
   board[index] = character
   return board
 end
 
-  def turn
+
+
+
+def turn
     puts "Where would you like to go?"
     input = gets.strip
     index = input_to_index(input)
