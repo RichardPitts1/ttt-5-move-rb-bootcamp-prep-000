@@ -17,6 +17,7 @@ end
 
 def whereWouldYouLikeToGo
   puts "Where would you like to go?"
+  input = gets.strip
 
 def input_to_index(user_input)
   new_user_input = user_input.to_i
