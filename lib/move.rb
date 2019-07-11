@@ -37,7 +37,7 @@ end
 
 
 
-def move(board, index, character = "X")
+def move(board, input_to_index, character = "X")
   board[index] = character
   return board
 end
