@@ -16,7 +16,7 @@ def display_board(board)
 end
 
 def whereWouldYouLikeToGo
-  puts 
+  puts "Where would you like to go?"
 
 def input_to_index(user_input)
   new_user_input = user_input.to_i
