@@ -13,7 +13,11 @@ end
 welcomeMessage()
 
 
-
+def whereWouldYouLikeToGo
+  puts "Where would you like to go?"
+  input = gets.strip
+  index = input_to_index(input)
+end
 
 
 def display_board(board)
