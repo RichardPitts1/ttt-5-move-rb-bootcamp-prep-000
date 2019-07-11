@@ -34,13 +34,13 @@
 # end
 
 
-  def input_to_index(user_input)
-    user_input.to_i - 1
-  end
+#   def input_to_index(user_input)
+#     user_input.to_i - 1
+#   end
 
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-  def move(board, position, character = "O")
-    @board[position.to_i] = character
-  end
+#   def move(board, position, character = "O")
+#     @board[position.to_i] = character
+#   end
