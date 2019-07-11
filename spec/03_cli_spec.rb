@@ -74,5 +74,3 @@ require_relative "../lib/move.rb"
 
     expect(output).to include("  |   |   ")
   end
-end
-end
