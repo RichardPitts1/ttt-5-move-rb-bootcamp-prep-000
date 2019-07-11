@@ -28,15 +28,15 @@ describe './bin/move executing a CLI Application' do
   #   run_file("./bin/move")
   # end
 
-  it 'converts the users input to an index' do
-    allow($stdout).to receive(:puts)
+  # it 'converts the users input to an index' do
+  #   allow($stdout).to receive(:puts)
 
-    allow(self).to receive(:gets).and_return("1")
+  #   allow(self).to receive(:gets).and_return("1")
     
-    expect(self).to receive(:input_to_index).and_return(0)
+  #   expect(self).to receive(:input_to_index).and_return(0)
 
-    run_file("./bin/move")
-  end
+  #   run_file("./bin/move")
+  # end
 
   it 'calls move passing the index' do
 
