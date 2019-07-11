@@ -41,6 +41,6 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-  def move(board, position, character = "X")
+  def move(board, position, character = "O")
     @board[position.to_i] = character
   end
