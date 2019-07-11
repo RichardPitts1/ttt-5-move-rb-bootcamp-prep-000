@@ -39,8 +39,8 @@
   end
 
 
-
+board = [" ", " ", " "]
 
   def move(board, position, character = "X")
-    @board[location.to_i] = character
+    @board[position.to_i] = character
   end
