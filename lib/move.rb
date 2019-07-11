@@ -41,6 +41,6 @@
 
 
 
-  def move(location, character = "X")
+  def move(board, position, character = "X")
     @board[location.to_i] = character
   end
