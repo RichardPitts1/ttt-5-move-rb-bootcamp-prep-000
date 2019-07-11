@@ -4,6 +4,17 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
+
+def welcomeMessage 
+puts "Welcome to Tic Tac Toe!"
+end
+
+welcomeMessage()
+
+
+
+
+
  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
