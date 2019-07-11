@@ -39,7 +39,7 @@
   end
 
 
-board = [" ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
   def move(board, position, character = "X")
     @board[position.to_i] = character
