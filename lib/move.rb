@@ -69,7 +69,7 @@ def move(board, index, character = "X")
 end
 
   def turn
-    puts "Please enter 1-9:"
+    puts "Where would you like to go?"
     input = gets.strip
     index = input_to_index(input)
     char = current_player
